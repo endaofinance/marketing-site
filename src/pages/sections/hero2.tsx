@@ -30,7 +30,7 @@ const AppButtons = ({ enabled }: { enabled: boolean }) => {
 };
 
 const Nav = ({
-  navigation,
+  navigation = [],
   appButtonEnabled,
 }: {
   navigation: NavLink[];

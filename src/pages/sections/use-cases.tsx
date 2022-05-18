@@ -13,7 +13,12 @@ interface Props {
   features: Feature[];
 }
 
-export default function ({ headline, subheader, callout, features }: Props) {
+export default function ({
+  headline,
+  subheader,
+  callout,
+  features = [],
+}: Props) {
   return (
     <div className="relative bg-white py-16 sm:py-24 lg:py-32" id="use-cases">
       <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
