@@ -19,7 +19,7 @@ import { Helmet } from "react-helmet";
 const IndexPage = function () {
   const navigation = [
     {
-      name: "How It Works",
+      name: "How it Works",
       href: "https://docs.endao.finance/main/concepts/endaoments",
     },
     { name: "Use Cases", href: "#use-cases" },
@@ -30,13 +30,13 @@ const IndexPage = function () {
     {
       name: "Creators",
       description:
-        "Content creators use EnDAO to raise funding from their community so that they can keep creating amazing content.",
+        "Content creators use EnDAO to raise funding from their community so they can keep creating amazing content.",
       icon: CameraIcon,
     },
     {
       name: "Charity",
       description:
-        "Charities and non-profits use EnDAO to raise money and fund daily operations.",
+        "Charities and nonprofits use EnDAO to raise money and fund daily operations.",
       icon: HeartIcon,
     },
     {
@@ -48,13 +48,13 @@ const IndexPage = function () {
     {
       name: "Research",
       description:
-        "Researchers use EnDAO to raise funding and explore fields of research where grant money may be lacking or not avaiable.",
+        "Researchers use EnDAO to raise funding and explore fields of research where grant money may be lacking or unavailable.",
       icon: BeakerIcon,
     },
     {
       name: "Payments",
       description:
-        "Creators of goods and services use EnDAO for recuring payments",
+        "Creators of goods and services use EnDAO for recurring  payments",
       icon: CurrencyDollarIcon,
     },
     {

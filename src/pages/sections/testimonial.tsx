@@ -44,7 +44,7 @@ export default function () {
           <blockquote className="mt-10">
             <div className="max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-gray-900">
               <p>
-                &ldquo;EnDAO is a really interesting concept, I’m excited to see
+                &ldquo;EnDAO is a really interesting concept; I’m excited to see
                 what type of projects will be funded by the protocol.&rdquo;
               </p>
             </div>
