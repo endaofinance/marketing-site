@@ -6,33 +6,33 @@ const faqs = [
   {
     question: "Does EnDAO have a token?",
     answer:
-      "No, the EnDAO protocol doesnt have a token. It's important that the protocol is decentralized and censorship resistant and we think that tokens can comprimize our mission.",
+      "No, the EnDAO protocol doesn’t  have a token. It's important that the protocol is decentralized and censorship-resistant, and we think tokens can compromise our mission.",
   },
   {
     question: "Is EnDAO a DAO?",
     answer:
-      "No, EnDAO is a protocol that allows people to create DAOs for the purpose of funding people or projects. The created DAO's are govened by the parameters setup by the beneficiary when the endaoments are setup.",
+      "No. EnDAO is a protocol that allows people to create DAOs for the purpose of funding people or projects. The created DAOs are governed by the parameters set up by the beneficiary when the endaoments are set up.",
   },
   {
-    question: "Is EnDAO only for non profits?",
+    question: "Is EnDAO only for nonprofits?",
     answer:
-      "No, the EnDAO protocol can be used to fund anything. Non profits are just one of the many use cases.",
+      "No, the EnDAO protocol can be used to fund anything. Nonprofits are just one of the many use cases.",
   },
   {
     question: "What tokens can be deposited?",
     answer:
-      "Currently assets deposited into the Endaoment contracts must be liquidity pool tokens. In the future we will support single token deposits.",
+      "Currently, assets deposited into the Endaoment contracts must be liquidity pool tokens. In the future, we will support single token deposits.",
   },
   {
     question: "Does the beneficiary have access to the assets I deposit?",
     answer:
-      "No. This is one of the reasons that this use case works perfectly on the blockchain. Assets are deposited into a smart contract and the depositor always has the ability to withdraw the assets at any time. At no point does the beneficiary or the DAO have direct control over the funds.",
+      "No. This is one of the reasons that this use case works perfectly on the blockchain. Assets are deposited into a smart contract, and the depositor always has the ability to withdraw the assets at any time. At no point does the beneficiary or the DAO have direct control over the funds.",
   },
   {
     question:
-      "If I am looking for funding why would I choose this option over others?",
+      "If I am looking for funding, why would I choose this option over others?",
     answer:
-      "If you have access to other options you probably use those sources as well. Funding isn't zero sum and projects usually have a blend of equity/debt/grant funding depending on the needs. This is just another option. One benefit to EnDAO is that it is a more sustainable funding method vs  continuous debt/equity/grant fundraising. A funding campaign run one time will continue to fund your project in perpetuity.",
+      "If you have access to other options, you probably use those sources as well. Funding isn't zero-sum, and projects usually have a blend of equity/debt/grant funding depending on the needs. This is just another option. One benefit of EnDAO is that it is a more sustainable funding method versus continuous debt/equity/grant fundraising. A funding campaign run one time will continue to fund your project in perpetuity.",
   },
   {
     question: "Is EnDAO a blockchain?",
