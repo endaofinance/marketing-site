@@ -2,7 +2,7 @@
 
 This website was built in Gatsby.
 
-## 🚀 Quick start
+## Quick start
 
 1.  **Create a Gatsby site.**
 
