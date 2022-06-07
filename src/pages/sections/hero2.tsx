@@ -119,20 +119,12 @@ const Nav = ({
                 ))}
               </div>
               <div className="mt-6 px-5">
-                <a
-                  href="#"
+                <OutboundLink
+                  href="https://app.endao.finance"
                   className="block text-center w-full py-3 px-4 rounded-md shadow bg-indigo-600 text-white font-medium hover:bg-indigo-700"
                 >
-                  Start free trial
-                </a>
-              </div>
-              <div className="mt-6 px-5">
-                <p className="text-center text-base font-medium text-gray-500">
-                  Existing customer?{" "}
-                  <a href="#" className="text-gray-900 hover:underline">
-                    Login
-                  </a>
-                </p>
+                  App
+                </OutboundLink>
               </div>
             </div>
           </div>
@@ -153,9 +145,9 @@ export default function ({ navigation, appButtonEnabled }: Props) {
               <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-center lg:flex lg:items-center">
                 <div className="lg:py-24">
                   <h1 className="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
-                    <span className="block">Fund projects</span>
+                    <span className="block">Permanent funding</span>
                     <span className="block text-indigo-400">
-                      without the loss
+                      using the power of DeFi
                     </span>
                   </h1>
                   <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
@@ -163,12 +155,11 @@ export default function ({ navigation, appButtonEnabled }: Props) {
                     DeFi/Staking to projects or people that you want to support.
                   </p>
                 </div>
+                <div className="pt-7 md:hidden lg:hidden"></div>
               </div>
             </div>
           </div>
         </div>
-
-        {/* More main page content here... */}
       </main>
     </div>
   );

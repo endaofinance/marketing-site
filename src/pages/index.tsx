@@ -6,6 +6,7 @@ import Team from "./sections/team";
 import Footer from "./sections/footer";
 import UseCases from "./sections/use-cases";
 import Testimonial from "./sections/testimonial";
+import GetStarted from "./sections/get-started";
 import {
   CameraIcon,
   CurrencyDollarIcon,
@@ -79,6 +80,7 @@ const IndexPage = function () {
           callout="Use Cases"
           features={features}
         />
+        <GetStarted />
         <Testimonial />
         <FAQs />
         <SignupForm />
