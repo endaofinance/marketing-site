@@ -72,7 +72,7 @@ const IndexPage = function () {
         <link rel="canonical" href="http://endao.finance" />
       </Helmet>
       <main>
-        <Hero navigation={navigation} appButtonEnabled={false} />
+        <Hero navigation={navigation} appButtonEnabled={true} />
         <UseCases
           headline="How you can fund the future"
           subheader="EnDAO can be used many ways to fund the future. Here are just a few of the ideas we can think of."
