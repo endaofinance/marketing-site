@@ -69,7 +69,7 @@ const IndexPage = function () {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>EnDAO - Fund projects without loss</title>
+        <title>EnDAO - Permanent funding using the power of DeFi</title>
         <link rel="canonical" href="http://endao.finance" />
       </Helmet>
       <main>
