@@ -21,6 +21,14 @@ const config: GatsbyConfig = {
       },
     },
     {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: "/assets/svg/",
+        },
+      },
+    },
+    {
       resolve: "gatsby-plugin-manifest",
       options: {
         icon: "src/assets/images/icon.png",

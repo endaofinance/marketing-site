@@ -3,6 +3,7 @@ import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { OutboundLink } from "gatsby-plugin-google-gtag";
+import BrandMark from "../../assets/svg/brand-mark.svg";
 
 interface NavLink {
   name: string;
@@ -50,7 +51,8 @@ const Nav = ({
                 <span className="sr-only">EnDAO</span>
                 <img
                   className="h-8 w-auto sm:h-10"
-                  src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
+                  src={BrandMark}
+                  //src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
                   alt=""
                 />
               </a>
