@@ -4,19 +4,19 @@ import { ChevronDownIcon } from "@heroicons/react/outline";
 
 const faqs = [
   {
-    question: "Does EnDAO have a token?",
+    question: "Does Endao have a token?",
     answer:
-      "No, the EnDAO protocol doesn’t  have a token. It's important that the protocol is decentralized and censorship-resistant, and we think tokens can compromise our mission.",
+      "No, the Endao protocol doesn’t  have a token. It's important that the protocol is decentralized and censorship-resistant, and we think tokens can compromise our mission.",
   },
   {
-    question: "Is EnDAO a DAO?",
+    question: "Is Endao a DAO?",
     answer:
-      "No. EnDAO is a protocol that allows people to create DAOs for the purpose of funding people or projects. The created DAOs are governed by the parameters set up by the beneficiary when the endaoments are set up.",
+      "No. Endao is a protocol that allows people to create DAOs for the purpose of funding people or projects. The created DAOs are governed by the parameters set up by the beneficiary when the endaoments are set up.",
   },
   {
-    question: "Is EnDAO only for nonprofits?",
+    question: "Is Endao only for nonprofits?",
     answer:
-      "No, the EnDAO protocol can be used to fund anything. Nonprofits are just one of the many use cases.",
+      "No, the Endao protocol can be used to fund anything. Nonprofits are just one of the many use cases.",
   },
   {
     question: "What tokens can be deposited?",
@@ -32,12 +32,12 @@ const faqs = [
     question:
       "If I am looking for funding, why would I choose this option over others?",
     answer:
-      "If you have access to other options, you probably use those sources as well. Funding isn't zero-sum, and projects usually have a blend of equity/debt/grant funding depending on the needs. This is just another option. One benefit of EnDAO is that it is a more sustainable funding method versus continuous debt/equity/grant fundraising. A funding campaign run one time will continue to fund your project in perpetuity.",
+      "If you have access to other options, you probably use those sources as well. Funding isn't zero-sum, and projects usually have a blend of equity/debt/grant funding depending on the needs. This is just another option. One benefit of Endao is that it is a more sustainable funding method versus continuous debt/equity/grant fundraising. A funding campaign run one time will continue to fund your project in perpetuity.",
   },
   {
-    question: "Is EnDAO a blockchain?",
+    question: "Is Endao a blockchain?",
     answer:
-      "EnDAO is an application built on top of the Ethereum blockchain. We have plans to extend to Ethereum Layer 2 protocols.",
+      "Endao is an application built on top of the Ethereum blockchain. We have plans to extend to Ethereum Layer 2 protocols.",
   },
 ];
 
