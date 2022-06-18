@@ -24,7 +24,6 @@ const IndexPage = function () {
       href: "https://docs.endao.finance/main/concepts/endaoments",
     },
     { name: "Use Cases", href: "#use-cases" },
-    { name: "Team", href: "#team" },
     { name: "Documentation", href: "https://docs.endao.finance" },
   ];
   const features = [
