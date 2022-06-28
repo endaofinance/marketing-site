@@ -3,7 +3,7 @@ import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `EnDAO`,
+    title: `Endao`,
     siteUrl: `https://www.endao.finance`,
   },
   plugins: [

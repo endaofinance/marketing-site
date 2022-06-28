@@ -48,7 +48,7 @@ const Nav = ({
           <div className="flex items-center flex-1">
             <div className="flex items-center justify-between w-full md:w-auto">
               <a href="#">
-                <span className="sr-only">EnDAO</span>
+                <span className="sr-only">Endao</span>
                 <img
                   className="h-8 w-auto sm:h-10"
                   src={BrandMark}
@@ -148,7 +148,7 @@ export default function ({ navigation, appButtonEnabled }: Props) {
                     </span>
                   </h1>
                   <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                    EnDAO allows you to direct the yield generated from
+                    Endao allows you to direct the yield generated from
                     DeFi/Staking to projects or people that you want to support.
                   </p>
                 </div>

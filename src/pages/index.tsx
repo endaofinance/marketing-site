@@ -30,37 +30,37 @@ const IndexPage = function () {
     {
       name: "Creators",
       description:
-        "Content creators use EnDAO to raise funding from their community so they can keep creating amazing content.",
+        "Content creators use Endao to raise funding from their community so they can keep creating amazing content.",
       icon: CameraIcon,
     },
     {
       name: "Charity",
       description:
-        "Charities and nonprofits use EnDAO to raise money and fund daily operations.",
+        "Charities and nonprofits use Endao to raise money and fund daily operations.",
       icon: HeartIcon,
     },
     {
       name: "Open Source",
       description:
-        "Open source maintainers use EnDAO to raise money from their software's users so they can fund continued development.",
+        "Open source maintainers use Endao to raise money from their software's users so they can fund continued development.",
       icon: VariableIcon,
     },
     {
       name: "Research",
       description:
-        "Researchers use EnDAO to raise funding and explore fields of research where grant money may be lacking or unavailable.",
+        "Researchers use Endao to raise funding and explore fields of research where grant money may be lacking or unavailable.",
       icon: BeakerIcon,
     },
     {
       name: "Payments",
       description:
-        "Creators of goods and services use EnDAO for recurring  payments",
+        "Creators of goods and services use Endao for recurring  payments",
       icon: CurrencyDollarIcon,
     },
     {
       name: "Special Projects",
       description:
-        "There are too many potential use cases for EnDAO. Join our community and let us know how you want to fund projects",
+        "There are too many potential use cases for Endao. Join our community and let us know how you want to fund projects",
       icon: QuestionMarkCircleIcon,
     },
   ];
@@ -68,14 +68,14 @@ const IndexPage = function () {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>EnDAO - Permanent funding using the power of DeFi</title>
+        <title>Endao - Permanent funding using the power of DeFi</title>
         <link rel="canonical" href="http://endao.finance" />
       </Helmet>
       <main>
         <Hero navigation={navigation} appButtonEnabled={true} />
         <UseCases
           headline="How you can fund the future"
-          subheader="EnDAO can be used many ways to fund the future. Here are just a few of the ideas we can think of."
+          subheader="Endao can be used many ways to fund the future. Here are just a few of the ideas we can think of."
           callout="Use Cases"
           features={features}
         />
