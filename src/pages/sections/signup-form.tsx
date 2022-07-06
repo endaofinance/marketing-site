@@ -27,7 +27,7 @@ export default function CTASection() {
           href="https://github.com/endaofinance"
           className="m-8 w-1/2 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50 sm:w-auto"
         >
-          GiHub
+          GitHub
         </OutboundLink>
       </div>
     </div>
