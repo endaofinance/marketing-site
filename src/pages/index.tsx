@@ -2,7 +2,6 @@ import * as React from "react";
 import Hero from "./sections/hero2";
 import FAQs from "./sections/faqs";
 import SignupForm from "./sections/signup-form";
-import Team from "./sections/team";
 import Footer from "./sections/footer";
 import UseCases from "./sections/use-cases";
 import Testimonial from "./sections/testimonial";
@@ -16,15 +15,18 @@ import {
   QuestionMarkCircleIcon,
 } from "@heroicons/react/outline";
 import { Helmet } from "react-helmet";
+import VideoCards from "./sections/video-cards";
 
 const IndexPage = function () {
   const navigation = [
     {
       name: "How it Works",
-      href: "https://docs.endao.finance/main/concepts/endaoments",
+      href: "#how-it-works",
     },
+    { name: "Join The Community", href: "#join-community" },
     { name: "Use Cases", href: "#use-cases" },
-    { name: "Documentation", href: "https://docs.endao.finance" },
+    { name: "FAQs", href: "#faqs" },
+    { name: "Developers", href: "https://docs.endao.finance" },
   ];
   const features = [
     {
@@ -80,8 +82,9 @@ const IndexPage = function () {
           features={features}
         />
         <GetStarted />
-        <Testimonial />
+        <VideoCards />
         <FAQs />
+        <Testimonial />
         <SignupForm />
         <Footer />
       </main>

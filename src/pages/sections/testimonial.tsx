@@ -50,6 +50,13 @@ export default function () {
             </div>
             <footer className="mt-8">
               <div className="md:flex md:items-center md:justify-center">
+                <div className="md:flex-shrink-0">
+                  <img
+                    className="mx-auto h-10 w-10 rounded-full"
+                    src="/phil-headshot.jpeg"
+                    alt=""
+                  />
+                </div>
                 <div className="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
                   <div className="text-base font-medium text-gray-900">
                     Phil Meng
