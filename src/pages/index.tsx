@@ -1,4 +1,5 @@
 import * as React from "react";
+import { graphql } from "gatsby";
 import Hero from "./sections/hero2";
 import FAQs from "./sections/faqs";
 import SignupForm from "./sections/signup-form";
@@ -17,7 +18,7 @@ import {
 import { Helmet } from "react-helmet";
 import VideoCards from "./sections/video-cards";
 
-const IndexPage = function () {
+const IndexPage = function ({ data }: { data: any }) {
   const navigation = [
     {
       name: "How it Works",
@@ -66,12 +67,27 @@ const IndexPage = function () {
       icon: QuestionMarkCircleIcon,
     },
   ];
+
+  const { title, description, siteUrl, ogImagePath, summaryLargeImagePath } =
+    data.site.siteMetadata;
+
   return (
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Endao - Permanent funding using the power of DeFi</title>
-        <link rel="canonical" href="http://endao.finance" />
+        <title>{title}</title>
+        <meta name="description" content={description} />
+        <link rel="canonical" href={siteUrl} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={siteUrl} />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:image" content={ogImagePath} />
+        <meta property="twitter:card" content={summaryLargeImagePath} />
+        <meta property="twitter:url" content={siteUrl} />
+        <meta property="twitter:title" content={title} />
+        <meta property="twitter:description" content={description} />
+        <meta property="twitter:image" content={description} />
       </Helmet>
       <main>
         <Hero navigation={navigation} appButtonEnabled={true} />
@@ -93,3 +109,17 @@ const IndexPage = function () {
 };
 
 export default IndexPage;
+
+export const query = graphql`
+  query IndexQuery {
+    site {
+      siteMetadata {
+        title
+        description
+        siteUrl
+        ogImagePath
+        summaryLargeImagePath
+      }
+    }
+  }
+`;
