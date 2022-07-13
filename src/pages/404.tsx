@@ -6,7 +6,7 @@ import {
   ChatIcon,
   CodeIcon,
 } from "@heroicons/react/outline";
-import Footer from "./sections/footer";
+import Footer from "../sections/footer";
 import BrandMark from "../assets/svg/brand-mark.svg";
 
 const links = [

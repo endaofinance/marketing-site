@@ -1,12 +1,13 @@
 import * as React from "react";
 import { graphql } from "gatsby";
-import Hero from "./sections/hero2";
-import FAQs from "./sections/faqs";
-import SignupForm from "./sections/signup-form";
-import Footer from "./sections/footer";
-import UseCases from "./sections/use-cases";
-import Testimonial from "./sections/testimonial";
-import GetStarted from "./sections/get-started";
+import Hero from "../sections/hero2";
+import FAQs from "../sections/faqs";
+import SignupForm from "../sections/signup-form";
+import Footer from "../sections/footer";
+import UseCases from "../sections/use-cases";
+import Testimonial from "../sections/testimonial";
+import GetStarted from "../sections/get-started";
+import VideoCards from "../sections/video-cards";
 import {
   CameraIcon,
   CurrencyDollarIcon,
@@ -16,7 +17,6 @@ import {
   QuestionMarkCircleIcon,
 } from "@heroicons/react/outline";
 import { Helmet } from "react-helmet";
-import VideoCards from "./sections/video-cards";
 
 const IndexPage = function ({ data }: { data: any }) {
   const navigation = [

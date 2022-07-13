@@ -3,7 +3,7 @@ import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { OutboundLink } from "gatsby-plugin-google-gtag";
-import BrandMark from "../../assets/svg/brand-mark.svg";
+import BrandMark from "../assets/svg/brand-mark.svg";
 
 interface NavLink {
   name: string;
