@@ -3,7 +3,7 @@ import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `"Endao - Permanent funding using the power of DeFi`,
+    title: `Endao - Permanent funding using the power of DeFi`,
     siteUrl: `https://endao.finance`,
     description:
       "Endao allows you to direct the yield generated from DeFi/Staking to projects or people that you want to support.",
