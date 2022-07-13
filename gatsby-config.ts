@@ -38,6 +38,14 @@ const config: GatsbyConfig = {
         icon: "src/assets/images/icon.png",
       },
     },
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://endao.finance",
+        sitemap: "https://endao.finance/sitemap/sitemap-index.xml",
+        policy: [{ userAgent: "*", allow: "/" }],
+      },
+    },
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     "gatsby-plugin-postcss",
