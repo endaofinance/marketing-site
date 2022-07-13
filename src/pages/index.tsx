@@ -83,7 +83,7 @@ const IndexPage = function ({ data }: { data: any }) {
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         <meta property="og:image" content={ogImagePath} />
-        <meta property="twitter:card" content={summaryLargeImagePath} />
+        <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content={siteUrl} />
         <meta property="twitter:title" content={title} />
         <meta property="twitter:description" content={description} />
