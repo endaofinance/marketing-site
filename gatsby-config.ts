@@ -7,8 +7,8 @@ const config: GatsbyConfig = {
     siteUrl: `https://endao.finance`,
     description:
       "Endao allows you to direct the yield generated from DeFi/Staking to projects or people that you want to support.",
-    ogImagePath: "",
-    summaryLargeImagePath: "",
+    ogImagePath: "https://endao.finance/endao-social-image.png",
+    summaryLargeImagePath: "https://endao.finance/endao-social-image.png",
   },
   plugins: [
     {
